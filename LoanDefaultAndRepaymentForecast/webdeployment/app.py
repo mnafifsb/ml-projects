@@ -1,5 +1,6 @@
 import streamlit as st
 import numpy as np
+import joblib
 
 # Streamlit web app UI
 st.title("Loan Default Prediction")
