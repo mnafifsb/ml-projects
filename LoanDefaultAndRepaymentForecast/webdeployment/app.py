@@ -2,11 +2,6 @@ import streamlit as st
 import joblib
 import numpy as np
 
-# Load the trained model for loan default prediction
-model_default = joblib.load(
-    r"LoanDefaultAndRepaymentForecast/model/loan_default_model.pkl"
-)
-
 # Streamlit web app UI
 st.title("Loan Default Prediction")
 
