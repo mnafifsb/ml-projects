@@ -4,7 +4,7 @@ import numpy as np
 
 # Load the trained model for loan default prediction
 model_default = joblib.load(
-    r"C:\Users\afif.baharun\OneDrive - cgcmb\Machine Learning Repository\LoanDefaultAndRepaymentForecast\model\model.pkl"
+    r"model\model.pkl"
 )
 
 # Streamlit web app UI
