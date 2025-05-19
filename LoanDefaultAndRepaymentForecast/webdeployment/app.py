@@ -4,7 +4,7 @@ import numpy as np
 
 # Load the trained model for loan default prediction
 model_default = joblib.load(
-    r"LoanDefaultAndRepaymentForecast/model/model.pkl"
+    r"LoanDefaultAndRepaymentForecast/model/loan_default_model.pkl"
 )
 
 # Streamlit web app UI
